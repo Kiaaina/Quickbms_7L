@@ -1,6 +1,6 @@
 # 7zip_Compression.bms (0.0.1a)
 #By_Kia7L
-
+0xff
 get NAME fullname
 string NAME l NAME
 string NAME >>= \
@@ -79,6 +79,7 @@ string ACD_NAME += /
 string ACD_NAME += TMP
 string ACD_NAME += ""
 #file extension above (.mp4/.mp3) example...
+
 log MEMORY_FILE2 0 0
 
 for
