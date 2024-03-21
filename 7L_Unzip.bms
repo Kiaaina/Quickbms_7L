@@ -3,6 +3,8 @@
 0xff
 0x0a*{
 get NAME fullname
+#Choose file type below...
+string extension=""
 string NAME l NAME
 string NAME >>= \
 string NAME != \
@@ -78,8 +80,8 @@ set ACD_NAME string NAME
 get TMP filename
 string ACD_NAME += /
 string ACD_NAME += TMP
-string ACD_NAME += ""
-#file extension above (.mp4/.mp3) example...
+string ACD_NAME += extension
+#file extension above (".mp4"/".mp3") example...
 
 # extraction
 
