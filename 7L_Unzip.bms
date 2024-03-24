@@ -85,9 +85,6 @@ string ACD_NAME += extension
 
 # extraction
 
-get ACD_SIZE asize
-
-for ACD_OFF = 0 < ACD_SIZE
     get NAMESZ long
     getdstring NAME NAMESZ
     get SIZE long
